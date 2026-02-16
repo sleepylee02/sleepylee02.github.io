@@ -78,6 +78,18 @@ Optional isolated build output:
 hugo --destination /tmp/hugo-check
 ```
 
+### GitHub Pages Deployment (GitHub Actions)
+- Workflow file: `.github/workflows/hugo-pages.yml`
+- Trigger: push to `main` (and manual run via `workflow_dispatch`)
+- Build: Hugo Extended with theme submodules checked out
+- Deploy: artifact upload + `actions/deploy-pages`
+
+Required one-time repository setting:
+1. Go to `Settings` -> `Pages`.
+2. Set `Source` to **GitHub Actions**.
+
+After this, pushes to `main` deploy the latest Hugo build automatically.
+
 ## 6. Notes and Maintenance Rules
 - `public/` is build output and is ignored by Git.
 - `.hugo_build.lock` is a temporary lock file and is ignored by Git.

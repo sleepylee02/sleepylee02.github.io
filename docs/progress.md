@@ -16,6 +16,7 @@ This file tracks current work status and short completion summaries.
 | 2026-02-16 | Prepare provisional dataset from context notes | Done | Owner review and finalize decision locks |
 | 2026-02-16 | Apply full context-based content update | Done | Add project metrics and confirm final factual locks |
 | 2026-02-16 | Apply second-pass context enrichment | Done | Finalize factual confirmations and trim/edit copy tone |
+| 2026-02-16 | Switch deployment mode to GitHub Actions | Done | Set GitHub Pages source to GitHub Actions in repository settings |
 
 ## Completed Log
 | Date | What Was Done | Short Summary |
@@ -29,6 +30,7 @@ This file tracks current work status and short completion summaries.
 | 2026-02-16 | Applied context-based updates across public pages | Updated Home/About/Timeline, added 3 context-grounded project pages, and added one real-time research log |
 | 2026-02-16 | Enriched pages directly from context details | Added systems coursework in About, expanded project-history list, and deepened early-stage timeline narrative |
 | 2026-02-16 | Fixed menu order regression | Added explicit menu `weight` values in `hugo.toml` so Contact stays last |
+| 2026-02-16 | Added GitHub Actions Pages workflow | Added `.github/workflows/hugo-pages.yml` and documented one-time Pages setting update |
 
 ## Next Candidates
 - Replace sample text in `content/projects/gpu-batching-prototype.md` with real metrics.
