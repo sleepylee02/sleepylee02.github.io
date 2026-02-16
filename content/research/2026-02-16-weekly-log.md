@@ -1,0 +1,24 @@
+---
+title: "Research Log: 2026-02-16"
+date: 2026-02-16
+draft: false
+tags: ["research-log", "weekly"]
+---
+
+## Recent Papers
+- DeepSeek-V3 Technical Report
+- Attention Is All You Need
+
+## Current Interests
+- GPU batching policy design
+- Consensus protocol fundamentals
+
+## Notes (Diary)
+- This week I focused on balancing throughput and latency in batching.
+- Fixed-size batching was simple but not robust under varying request rates.
+- I need a better policy to adapt batch size and timeout from queue signals.
+- Next week I will test queue-depth-aware scheduling.
+
+## Weekly PPT
+- Add your file to `static/files/` and link it here.
+- Example: [Download PPT/PDF](/files/2026-02-16-weekly.pdf)

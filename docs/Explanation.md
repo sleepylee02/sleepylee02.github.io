@@ -40,6 +40,9 @@ content/
 ├── about/             # Curated public profile
 │   └── _index.md
 │
+├── contact/           # Public contact links
+│   └── _index.md
+│
 
 ````
 
@@ -160,6 +163,10 @@ tags: ["research-log", "weekly"]
 
 > Explain how I grew and where I am heading.
 
+**Operating Style**
+
+- Managed as a single page (`content/timeline/_index.md`), not as multiple timeline posts.
+
 **Contains**
 
 - Past / Present / Future
@@ -203,6 +210,23 @@ tags: ["research-log", "weekly"]
 
 ---
 
+### 6. Contact (`content/contact/`)
+
+**Purpose**
+
+> Provide one clear place for professional contact links.
+
+**Contains**
+
+- Primary email
+    
+- GitHub profile link
+    
+- LinkedIn profile link
+    
+
+---
+
 
 
 ---
@@ -216,6 +240,7 @@ tags: ["research-log", "weekly"]
 |Research|What am I studying right now?|
 |Timeline|How did I get here & where am I going?|
 |About|What is my official profile?|
+|Contact|How can someone reach me?|
 
 
 

@@ -2,6 +2,9 @@
 /public
 /resources
 
+# contextual information
+docs/context
+
 # Hugo build lock
 .hugo_build.lock
 

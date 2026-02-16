@@ -1,16 +1,18 @@
 ---
 title: "Research Log"
 description: "A living record of my studies and experiments."
-menu:
-  main:
-    weight: 30
+date: 2026-02-16
+draft: false
 ---
 
-**This is not a blog.** It is a structured dump of my current mental state.
+This is not a traditional blog.
+It is a lightweight weekly record of what I read, what I presented, and what I want to test next.
 
-## Current Focus
-- {{< icon "cpu" >}} GPU Batching optimizations
-- {{< icon "book" >}} Distributed Consensus Papers
+## Weekly Post Format
+- Recent papers read
+- Current technical interests
+- 3-6 lines of short diary comments
+- Weekly PPT/PDF attachment
 
 ## Weekly Logs
-{{< list-pages "section" "research" >}}
+Weekly log entries in this section are listed automatically by Hugo.

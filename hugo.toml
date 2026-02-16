@@ -10,6 +10,10 @@ theme = "terminal"
   readingTime = true
   centerTheme = true
 
+  [params.logo]
+    logoText = "JAEYOUNG LEE"
+    logoHomeLink = "/"
+
   [params.home]
     title = "JAEYOUNG LEE"
     subtitle = "Applied Statistics & Computer Science @ Yonsei Univ. \n Bridging Data Science with System Architecture."
@@ -18,16 +22,25 @@ theme = "terminal"
   [[menu.main]]
     identifier = "about"
     name = "about"
-    url = "/about"
+    url = "/about/"
+    weight = 1
   [[menu.main]]
     identifier = "projects"
     name = "projects"
-    url = "/projects"
+    url = "/projects/"
+    weight = 2
   [[menu.main]]
-    identifier = "interests"
-    name = "interests"
-    url = "/interests"
+    identifier = "research"
+    name = "research"
+    url = "/research/"
+    weight = 3
   [[menu.main]]
-    identifier = "reading"
-    name = "reading"
-    url = "/reading/"
+    identifier = "timeline"
+    name = "timeline"
+    url = "/timeline/"
+    weight = 4
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = 5
