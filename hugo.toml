@@ -1,3 +1,33 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://sleepylee02.github.io/"
+languageCode = "en-us"
+title = "Jaeyoung Lee"
+theme = "terminal"
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange" 
+  showFullContent = false
+  readingTime = true
+  centerTheme = true
+
+  [params.home]
+    title = "JAEYOUNG LEE"
+    subtitle = "Applied Statistics & Computer Science @ Yonsei Univ. \n Bridging Data Science with System Architecture."
+
+  # Professional Menu Labels
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about"
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects"
+  [[menu.main]]
+    identifier = "interests"
+    name = "interests"
+    url = "/interests"
+  [[menu.main]]
+    identifier = "reading"
+    name = "reading"
+    url = "/reading/"
