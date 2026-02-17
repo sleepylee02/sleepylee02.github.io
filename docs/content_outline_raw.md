@@ -10,8 +10,7 @@ Use this format:
 - `[home]` content for `content/_index.md`
 - `[about]` content for `content/about/_index.md`
 - `[project]` content for `content/projects/...`
-- `[research]` content for `content/research/...`
-- `[timeline]` content for `content/timeline/...`
+- `[study]` content for `content/study/...`
 - `[question]` open questions or missing facts
 - `[private]` sensitive items that should not be published
 
@@ -19,9 +18,9 @@ Bullet format:
 - `[tag]` one sentence or one fact
 
 ## Raw Notes
-- [goal] Convert docs/context notes into publish-ready copy for Home/About/Timeline and a prioritized project list.
-- [goal] Replace placeholder examples with real content in Projects and Research sections.
-- [goal] Keep About concise and move deeper narrative into Timeline.
+- [goal] Convert docs/context notes into publish-ready copy for Home/About and a prioritized project list.
+- [goal] Replace placeholder examples with real content in Projects and Study sections.
+- [goal] Keep About concise with only short growth context.
 
 - [source] docs/context/abt myself (portfolio).md
 - [source] docs/context/rtcl-meeting-prep.md
@@ -42,17 +41,10 @@ Bullet format:
 - [project] Keep project pages in a common structure: problem, approach, trade-offs, results, lessons.
 - [project] Add at least one metric per featured project (latency, throughput, scale, reliability).
 
-- [research] Weekly format: advisor/lab presentation PPT + 3-6 line diary notes.
-- [research] Topic stream: real-time scheduling under constrained resources.
-- [research] Topic stream: deadline vs accuracy trade-off in AI inference tasks.
-- [research] Topic stream: OS-level real-time concerns for ROS and embedded/edge systems.
-
-- [timeline] 2021: Started at Yonsei, initial exploration across clubs and startup activities.
-- [timeline] Post-military return: expanded into data analysis and machine learning projects.
-- [timeline] 2024-2025: curiosity shifted from analysis outputs to throughput and parallel execution.
-- [timeline] Turning point: operating systems and real-time systems courses changed core direction.
-- [timeline] 2025-2 onward: CS double major and deeper systems-oriented study path.
-- [timeline] 2026 plan: pursue MS-level research path, evaluate PhD after hands-on lab research.
+- [study] Weekly format: advisor/lab presentation PPT + 3-6 line diary notes.
+- [study] Topic stream: real-time scheduling under constrained resources.
+- [study] Topic stream: deadline vs accuracy trade-off in AI inference tasks.
+- [study] Topic stream: OS-level real-time concerns for ROS and embedded/edge systems.
 
 - [question] Which 2-3 projects should be prioritized for public front-page visibility?
 - [question] Should project pages be written in Korean, English, or bilingual format?

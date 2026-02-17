@@ -1,8 +1,10 @@
 ---
-title: "Research Log"
+title: "Study Log"
 description: "A living record of my studies and experiments."
 date: 2026-02-16
 draft: false
+aliases:
+  - /research/
 ---
 
 This is not a traditional blog.

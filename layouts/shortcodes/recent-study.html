@@ -1,0 +1,18 @@
+{{- $limit := 3 -}}
+{{- with .Get "limit" -}}
+  {{- $limit = int . -}}
+{{- end -}}
+
+{{- $studyPages := where .Site.RegularPages "Section" "study" -}}
+{{- $studyPages = sort $studyPages "Date" "desc" -}}
+{{- $recent := first $limit $studyPages -}}
+
+{{- if gt (len $recent) 0 -}}
+<ul>
+  {{- range $recent -}}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{- end -}}
+</ul>
+{{- else -}}
+<p>No study logs yet.</p>
+{{- end -}}

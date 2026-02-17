@@ -1,8 +1,8 @@
 ---
-title: "Research Log: YYYY-MM-DD"
+title: "Study Log: YYYY-MM-DD"
 date: 2026-02-16
 draft: true
-tags: ["research-log", "weekly", "template"]
+tags: ["study-log", "weekly", "template"]
 ---
 
 ## Recent Papers

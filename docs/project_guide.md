@@ -6,23 +6,21 @@ Operational guide for maintaining this Hugo-based portfolio site.
 - Type: Static Site Generator (Hugo)
 - Theme: `terminal`
 - Deployment target: GitHub Pages
-- Site positioning: portfolio + weekly research log (not a traditional blog)
+- Site positioning: portfolio + weekly study log (not a traditional blog)
 
 ## 2. Current Navigation and Content Model
 
 Main menu (from `hugo.toml`):
 - `/about/`
 - `/projects/`
-- `/research/`
-- `/timeline/`
+- `/study/`
 - `/contact/`
 
 Content sections (under `content/`):
 - `content/_index.md`: Home
 - `content/about/_index.md`: About
 - `content/projects/`: Project pages
-- `content/research/`: Weekly research logs
-- `content/timeline/`: Growth narrative
+- `content/study/`: Weekly study logs
 - `content/contact/_index.md`: Contact links
 
 ## 3. Directory Structure and Ownership
@@ -45,7 +43,7 @@ Content sections (under `content/`):
 
 When adding content:
 1. Extract/verify facts in `docs/context_intake.md`.
-2. Decide the target section (`about`, `projects`, `research`, `timeline`, `contact`).
+2. Decide the target section (`about`, `projects`, `study`, `contact`).
 3. Create a Markdown file with front matter:
 ```markdown
 ---
@@ -58,7 +56,7 @@ draft: false
 
 Recommended patterns:
 - Projects: problem, approach, trade-offs, result, lesson.
-- Research log: papers read, current interests, short diary notes, PPT/PDF link.
+- Study log: papers read, current interests, short diary notes, PPT/PDF link.
 
 ## 5. Development Workflow
 

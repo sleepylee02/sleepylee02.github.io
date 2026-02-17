@@ -20,24 +20,24 @@ theme = "terminal"
 
   # Professional Menu Labels
   [[menu.main]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
     identifier = "about"
     name = "about"
     url = "/about/"
-    weight = 1
+    weight = 2
   [[menu.main]]
     identifier = "projects"
     name = "projects"
     url = "/projects/"
-    weight = 2
-  [[menu.main]]
-    identifier = "research"
-    name = "research"
-    url = "/research/"
     weight = 3
   [[menu.main]]
-    identifier = "timeline"
-    name = "timeline"
-    url = "/timeline/"
+    identifier = "study"
+    name = "study"
+    url = "/study/"
     weight = 4
   [[menu.main]]
     identifier = "contact"

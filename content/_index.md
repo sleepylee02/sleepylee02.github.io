@@ -5,27 +5,33 @@ draft: false
 ---
 
 ## Jaeyoung Lee
-Applied Statistics and Computer Science student at Yonsei University, focused on systems performance and architecture.
+**Bridging Quantitative Insight and System Implementation.**
 
-My path moved from data analysis to system optimization under real-world constraints.
+My main interest lies in solving problems from the system level and building efficient, reliable architectures for complex projects.
+
+Currently, I am an undergraduate intern at **Yonsei Real-Time Computing Lab**[(RTCL)](https://rtcl-yonsei.github.io/website/index.html). \
+If you want to know more about me, visit the [About](/about/) page.
+
+
+
+
 
 ## Current Focus
-- Operating systems and distributed systems foundations
-- Real-time constraints in AI inference and scheduling
-- Efficient AI serving across CPU/GPU resource boundaries
+- **Real-Time Systems:** Real-Time Theory and Implementation on real-world system
+- **AI Infrastructure:** Optimizing AI inference and Efficient serving
+- **Data Engineering**: Architecting Scalable, Reliable, Fault-tolerant pipelines
+- **Self-Hosted Infrastructure:** Engineering private home server cluster
 
 ## Featured Work
 - [Home Inference Server Setup (DeepSeek)](/projects/home-inference-server-setup-deepseek/)
-- [Implementing S3-FIFO Cache Policy](/projects/implementing-s3-fifo/)
 - [ROS2 + YOLO Hazard Detection System](/projects/ros2-yolo-hazard-detection-system/)
+- [Uber Data Pipeline](/projects/uber-data-pipeline/)
 
-## Recent Research
-- [Research Log: 2026-02-16](/research/2026-02-16-weekly-log/)
-- [Research Log: 2026-02-09](/research/2026-02-09-real-time-systems-prep/)
+## Recent Study Notes
+{{< recent-study limit="3" >}}
 
 ## Start Here
 - [About](/about/)
 - [Projects](/projects/)
-- [Research Log](/research/)
-- [Timeline](/timeline/)
+- [Study Log](/study/)
 - [Contact](/contact/)

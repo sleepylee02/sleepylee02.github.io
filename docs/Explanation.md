@@ -4,13 +4,13 @@
 # GitHub.io Site Structure & Content Guide
 
 This document defines the **content structure and philosophy** of my GitHub Pages website.
-The goal is to focus on a **portfolio-focused personal site** and a **Research Log** to track my progress.
+The goal is to focus on a **portfolio-focused personal site** and a **Study Log** to track my progress.
 
 ---
 
 ## Core Concept
 
-- **No traditional blog**. The Research Log serves as the continuous record.
+- **No traditional blog**. The Study Log serves as the continuous record.
 
 > This site represents a *growing systems engineer / researcher*, not a finished product.
 
@@ -28,14 +28,11 @@ content/
 │   ├── project-b.md
 │   └── ...
 │
-├── research/          # What I am currently studying (Research Log)
+├── study/             # What I am currently studying (Study Log)
 │   ├── _index.md
 │   ├── paper-gedf.md
 │   ├── gpu-batching.md
 │   └── ...
-│
-├── timeline/          # Growth narrative (Past → Present → Future)
-│   └── _index.md
 │
 ├── about/             # Curated public profile
 │   └── _index.md
@@ -115,7 +112,7 @@ content/
 
 ---
 
-### 3. Research Log (`content/research/`)
+### 3. Study Log (`content/study/`)
 
 **Purpose**
 
@@ -135,9 +132,9 @@ content/
 **Template**
 ```markdown
 ---
-title: "Research Log: 2026-XX-XX"
+title: "Study Log: 2026-XX-XX"
 date: 2026-XX-XX
-tags: ["research-log", "weekly"]
+tags: ["study-log", "weekly"]
 ---
 ## Recent Papers
 - Paper A
@@ -157,32 +154,7 @@ tags: ["research-log", "weekly"]
 ```
 ---
 
-### 4. Timeline (`content/timeline/`)
-
-**Purpose**
-
-> Explain how I grew and where I am heading.
-
-**Operating Style**
-
-- Managed as a single page (`content/timeline/_index.md`), not as multiple timeline posts.
-
-**Contains**
-
-- Past / Present / Future
-    
-- Transitions in interests (e.g., data → systems)
-    
-- Self-reflection and learning style
-    
-- Career / research direction
-    
-
-**More personal than Projects, broader than Research Log**
-
----
-
-### 5. About (`content/about/`)
+### 4. About (`content/about/`)
 
 **Purpose**
 
@@ -210,7 +182,7 @@ tags: ["research-log", "weekly"]
 
 ---
 
-### 6. Contact (`content/contact/`)
+### 5. Contact (`content/contact/`)
 
 **Purpose**
 
@@ -237,8 +209,7 @@ tags: ["research-log", "weekly"]
 |---|---|
 |Home|Who am I?|
 |Projects|What have I built?|
-|Research|What am I studying right now?|
-|Timeline|How did I get here & where am I going?|
+|Study|What am I studying right now?|
 |About|What is my official profile?|
 |Contact|How can someone reach me?|
 

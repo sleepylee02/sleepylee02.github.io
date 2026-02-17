@@ -29,7 +29,7 @@ Follow this sequence for content work:
 1. Collect raw material from `docs/context/*`
 2. Extract and verify facts in `docs/context_intake.md`
 3. Map validated facts to target pages in `docs/content_outline.md`
-4. Apply updates in `content/` (`home/about/projects/research/timeline`)
+4. Apply updates in `content/` (`home/about/projects/study/contact`)
 5. Validate locally (`hugo` or `hugo --destination /tmp/hugo-check`)
 6. Add a one-line result entry to `docs/progress.md`
 
@@ -38,9 +38,8 @@ Keep section intent stable:
 
 - Home: 30-second introduction, core focus, entry links
 - About: concise profile summary
-- Timeline: deeper growth narrative (single page `content/timeline/_index.md`)
 - Projects: problem, approach, trade-offs, result, lessons, and at least one metric when possible
-- Research: weekly log format (PPT plus short notes)
+- Study: weekly log format (PPT plus short notes)
 
 ## 5. Privacy and Publishing Rules
 Before publishing, always check:
