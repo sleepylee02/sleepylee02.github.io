@@ -51,7 +51,7 @@ systems under strict resource and deadline constraints.
 ---
 
 ### Leadership & Experience
-* **Undergraduate Intern — RTCL@Yonsei** [2025 – Present]
+* **Undergraduate Intern — RTCL@Yonsei** [2026.1 – Present]
 * **YBIGTA (Yonsei Big Data Society)** [2024.12 – Present]
     * **Data Engineering Team Leader** [2025.12 – 2026.06]
     * **Vice President** [2025.06 – 2025.12]
@@ -64,8 +64,7 @@ systems under strict resource and deadline constraints.
 ### Contact
 * **Email**: See [Contact](/contact/) page for details.
 * For what I've built, see [Projects](/projects). 
-  For research topics, see [Study Log](/study).
-
+  For study notes and experiment records, see [Study](/study).
 
 
 

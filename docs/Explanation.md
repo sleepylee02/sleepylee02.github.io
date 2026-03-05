@@ -4,13 +4,13 @@
 # GitHub.io Site Structure & Content Guide
 
 This document defines the **content structure and philosophy** of my GitHub Pages website.
-The goal is to focus on a **portfolio-focused personal site** and a **Study Log** to track my progress.
+The goal is to focus on a **portfolio-focused personal site** and a **Study archive** to track my progress.
 
 ---
 
 ## Core Concept
 
-- **No traditional blog**. The Study Log serves as the continuous record.
+- **No traditional blog**. The Study section serves as the continuous record.
 
 > This site represents a *growing systems engineer / researcher*, not a finished product.
 
@@ -28,7 +28,7 @@ content/
 │   ├── project-b.md
 │   └── ...
 │
-├── study/             # What I am currently studying (Study Log)
+├── study/             # Ongoing study archive (notes, experiments, meeting materials)
 │   ├── _index.md
 │   ├── paper-gedf.md
 │   ├── gpu-batching.md
@@ -112,45 +112,49 @@ content/
 
 ---
 
-### 3. Study Log (`content/study/`)
+### 3. Study (`content/study/`)
 
 **Purpose**
 
-> Keep a lightweight weekly record of what I recently read, what I am interested in, and what I presented.
+> Keep an ongoing archive of what I read, build, test, and present.
 
 **Operating Style**
 
-- **Frequency**: Usually weekly (after advisor/lab presentation).
-- **Source**: The presentation PPT I already make.
+- **Frequency**: Flexible (regular updates plus event-driven notes).
+- **Source**: Meeting materials, experiments, reading notes, and implementation work.
 - **Format**:
-    - Recent papers read (or revisited)
-    - Current technical interests/focus
-    - Short comment in diary style (3-6 lines)
-    - PPT attachment (PDF or key slide images)
-- **Goal**: Keep evidence of consistent progress with minimal overhead.
+    - Context or goal
+    - What was read/built/tested
+    - Key observations and trade-offs
+    - Next actions
+    - Optional attachment (PPT/PDF/link)
+- **Goal**: Keep evidence of consistent progress and experimentation with minimal overhead.
 
 **Template**
 ```markdown
 ---
-title: "Study Log: 2026-XX-XX"
+title: "Study Note: 2026-XX-XX Topic"
 date: 2026-XX-XX
-tags: ["study-log", "weekly"]
+tags: ["study-note"]
 ---
-## Recent Papers
-- Paper A
-- Paper B
+## Context
+- Why this note exists
 
-## Current Interests
-- Topic A
-- Topic B
+## What I Read/Built/Tested
+- Item A
+- Item B
 
-## Notes (Diary)
-- What I found interesting this week
-- What was confusing or difficult
-- What I want to test next week
+## Key Observations
+- What worked
+- What did not work
+- What to improve
 
-## Weekly PPT
-[Download PPT/PDF](/files/2026-xx-xx-weekly.pdf)
+## Next Actions
+- Next step 1
+- Next step 2
+
+## Optional Attachment
+[PPT/PDF/Link](/files/2026-xx-xx-note.pdf)
 ```
 ---
 
@@ -209,7 +213,7 @@ tags: ["study-log", "weekly"]
 |---|---|
 |Home|Who am I?|
 |Projects|What have I built?|
-|Study|What am I studying right now?|
+|Study|What am I learning, testing, and documenting now?|
 |About|What is my official profile?|
 |Contact|How can someone reach me?|
 

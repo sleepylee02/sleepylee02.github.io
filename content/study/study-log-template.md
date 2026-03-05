@@ -1,22 +1,25 @@
 ---
-title: "Study Log: YYYY-MM-DD"
+title: "Study Note: YYYY-MM-DD / Topic"
 date: 2026-02-16
 draft: true
-tags: ["study-log", "weekly", "template"]
+tags: ["study-note", "template"]
 ---
 
-## Recent Papers
-- Paper A
-- Paper B
+## Why This Note
+- Meeting, experiment, reading, or implementation context
 
-## Current Interests
-- Topic A
-- Topic B
+## What I Studied
+- Item A
+- Item B
 
-## Notes (Diary)
-- What I found interesting this week
-- What was confusing or difficult
-- What I want to test next week
+## Key Takeaways
+- What I understood clearly
+- What is still unclear
+- Trade-offs or constraints I noticed
 
-## Weekly PPT
-[Download PPT/PDF](/files/yyyy-mm-dd-weekly.pdf)
+## Next Steps
+- What I will test or build next
+- Open question(s)
+
+## Optional Attachment
+- [PDF/Slides/Link](/files/study/yyyy/yyyy-mm-dd-topic.pdf)

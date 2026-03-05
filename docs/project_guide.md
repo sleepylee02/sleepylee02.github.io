@@ -6,7 +6,7 @@ Operational guide for maintaining this Hugo-based portfolio site.
 - Type: Static Site Generator (Hugo)
 - Theme: `terminal`
 - Deployment target: GitHub Pages
-- Site positioning: portfolio + weekly study log (not a traditional blog)
+- Site positioning: portfolio + ongoing study archive (not a traditional blog)
 
 ## 2. Current Navigation and Content Model
 
@@ -20,7 +20,7 @@ Content sections (under `content/`):
 - `content/_index.md`: Home
 - `content/about/_index.md`: About
 - `content/projects/`: Project pages
-- `content/study/`: Weekly study logs
+- `content/study/`: Study notes and logs (meeting/experiment/reading/implementation)
 - `content/contact/_index.md`: Contact links
 
 ## 3. Directory Structure and Ownership
@@ -56,7 +56,7 @@ draft: false
 
 Recommended patterns:
 - Projects: problem, approach, trade-offs, result, lesson.
-- Study log: papers read, current interests, short diary notes, PPT/PDF link.
+- Study entry: context, what was read/built/tested, observations, next actions, optional attachment.
 
 ## 5. Development Workflow
 

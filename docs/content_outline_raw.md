@@ -41,7 +41,7 @@ Bullet format:
 - [project] Keep project pages in a common structure: problem, approach, trade-offs, results, lessons.
 - [project] Add at least one metric per featured project (latency, throughput, scale, reliability).
 
-- [study] Weekly format: advisor/lab presentation PPT + 3-6 line diary notes.
+- [study] Flexible format: meeting summaries, experiment notes, paper notes, and implementation memos.
 - [study] Topic stream: real-time scheduling under constrained resources.
 - [study] Topic stream: deadline vs accuracy trade-off in AI inference tasks.
 - [study] Topic stream: OS-level real-time concerns for ROS and embedded/edge systems.

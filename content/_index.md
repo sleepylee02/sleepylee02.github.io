@@ -32,6 +32,6 @@ If you want to know more about me, visit the [About](/about/) page.
 
 ## Start Here
 - [About](/about/)
+- [Study](/study/)
 - [Projects](/projects/)
-- [Study Log](/study/)
 - [Contact](/contact/)

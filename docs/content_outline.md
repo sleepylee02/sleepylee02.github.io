@@ -20,7 +20,7 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 1. Finalize Home and About copy from `F-001`, `F-003`, `F-005`.
 2. Build two full project pages first from `F-004`, `F-009` (Inference server and S3-FIFO).
 3. Add one additional project (ROS2+YOLO or Uber pipeline) after metric availability check.
-4. Backfill two recent study logs using `F-010`, `F-011`.
+4. Backfill two recent study entries using `F-010`, `F-011`.
 
 ## 3. Mapping Plan (Source -> Target Page)
 
@@ -43,7 +43,7 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 - Add at least one metric per featured project (latency, throughput, scale, reliability).
 
 ### Study (`content/study/`)
-- Weekly format: advisor/lab presentation PPT + 3-6 line diary notes.
+- Flexible entry format: meeting summary, experiment notes, paper notes, or implementation memos.
 - Topic stream: real-time scheduling under constrained resources.
 - Topic stream: deadline vs accuracy trade-off in AI inference tasks.
 - Topic stream: OS-level real-time concerns for ROS and embedded/edge systems.
@@ -62,4 +62,4 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 - [x] Home updated
 - [x] About updated
 - [x] Projects updated
-- [x] Study logs added
+- [x] Study entries added

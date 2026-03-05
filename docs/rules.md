@@ -39,7 +39,7 @@ Keep section intent stable:
 - Home: 30-second introduction, core focus, entry links
 - About: concise profile summary
 - Projects: problem, approach, trade-offs, result, lessons, and at least one metric when possible
-- Study: weekly log format (PPT plus short notes)
+- Study: flexible notes format (meeting summaries, experiments, paper notes, implementation memos)
 
 ## 5. Privacy and Publishing Rules
 Before publishing, always check:

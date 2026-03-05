@@ -39,4 +39,4 @@ This file tracks current work status and short completion summaries.
 
 ## Next Candidates
 - Replace sample text in `content/projects/gpu-batching-prototype.md` with real metrics.
-- Add weekly study logs from recent advisor presentations.
+- Add new study entries from advisor meetings, experiments, and paper reviews.

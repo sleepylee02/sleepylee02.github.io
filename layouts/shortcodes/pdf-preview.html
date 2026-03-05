@@ -1,0 +1,10 @@
+{{- $src := .Get "src" -}}
+{{- $height := default "800" (.Get "height") -}}
+
+{{- if not $src -}}
+<p>Missing required parameter: <code>src</code></p>
+{{- else -}}
+<object data="{{ $src }}" type="application/pdf" width="100%" height="{{ $height }}">
+  <p>Preview is not available. <a href="{{ $src }}" target="_blank" rel="noopener">Open the PDF</a>.</p>
+</object>
+{{- end -}}
