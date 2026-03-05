@@ -1,7 +1,7 @@
 ---
 title: "ROS2 + YOLO Hazard Detection System"
 date: 2026-02-16
-draft: false
+draft: true
 tags: ["systems", "ros2", "robotics", "real-time"]
 ---
 

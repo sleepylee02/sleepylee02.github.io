@@ -1,7 +1,7 @@
 ---
 title: "GPU Batching Prototype"
 date: 2026-02-16
-draft: false
+draft: true
 tags: ["systems", "gpu", "serving"]
 ---
 

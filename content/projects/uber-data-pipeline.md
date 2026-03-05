@@ -1,7 +1,7 @@
 ---
 title: "Uber Data Pipeline"
 date: 2026-02-16
-draft: false
+draft: true
 tags: ["systems", "data-pipeline", "reliability", "scalability"]
 ---
 
