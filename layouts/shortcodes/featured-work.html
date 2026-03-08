@@ -1,0 +1,19 @@
+{{- with .Page.Params.featured_work -}}
+<ul>
+  {{- range . -}}
+    {{- $target := . -}}
+    {{- $page := $.Page.Site.GetPage $target -}}
+    <li>
+      {{- if $page -}}
+        <a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a>
+      {{- else -}}
+        <a href="{{ $target }}">{{ $target }}</a>
+      {{- end -}}
+    </li>
+  {{- end -}}
+</ul>
+{{- else -}}
+<ul>
+  <li><a href="/projects/">TBA</a></li>
+</ul>
+{{- end -}}

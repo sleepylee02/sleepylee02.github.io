@@ -23,9 +23,7 @@ If you want to know more about me, visit the [About](/about/) page.
 - **Self-Hosted Infrastructure:** Engineering private home server cluster
 
 ## Featured Work
-- [Home Inference Server Setup (DeepSeek)](/projects/home-inference-server-setup-deepseek/)
-- [ROS2 + YOLO Hazard Detection System](/projects/ros2-yolo-hazard-detection-system/)
-- [Uber Data Pipeline](/projects/uber-data-pipeline/)
+{{< featured-work >}}
 
 ## Recent Study Notes
 {{< recent-study limit="3" >}}
