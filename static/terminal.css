@@ -385,10 +385,3 @@ th,
 button {
   font-weight: 600;
 }
-
-/* Keep non-clickable logo width stable (same behavior as theme's anchor wrapper) */
-.header__logo > .logo {
-  flex: 0 0 auto;
-  max-width: 100%;
-  white-space: nowrap;
-}
