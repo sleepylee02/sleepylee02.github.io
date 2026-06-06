@@ -18,9 +18,10 @@ If you want to know more about me, visit the [About](/about/) page.
 
 ## Current Focus
 - **Real-Time Systems:** Real-Time Theory and Implementation on real-world system
-- **AI Infrastructure:** Optimizing AI inference and Efficient serving
-- **Data Engineering**: Architecting Scalable, Reliable, Fault-tolerant pipelines
-- **Self-Hosted Infrastructure:** Engineering private home server cluster
+- **Robotics:** System-level design and optimization for robotics
+- **AI Systems:** Efficient inference and serving under resource constraints
+- **Data Engineering:** Engineering reliable pipelines and self-hosted systems
+
 
 ## Featured Work
 {{< featured-work >}}
