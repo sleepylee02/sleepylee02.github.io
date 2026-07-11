@@ -7,10 +7,10 @@ draft: false
 ## Jaeyoung Lee
 **Bridging Quantitative Insight and System Implementation.**
 
-My main interest lies in solving problems from the system level and building efficient, reliable architectures for complex projects.
+My main interest lies in solving problems at the systems level and building efficient, reliable architectures for complex projects.
 
 Currently, I am an undergraduate research intern at **Yonsei Real-Time Computing Lab**[(RTCL)](https://rtcl-yonsei.github.io/website/index.html). \
-If you want to know more about me, visit the [About](/about/) page.
+To learn more about me, visit the [About](/about/) page.
 
 
 

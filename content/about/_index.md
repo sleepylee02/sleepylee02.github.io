@@ -32,7 +32,7 @@ Recently, I have been exploring how this systems perspective can extend toward *
 
 ---
 
-### Leadership & Experience
+### Experience & Leadership
 * **Undergraduate Research Intern — RTCL@Yonsei** [2026.1 – Present]
 * **YBIGTA (Yonsei Big Data Society)** [2024.12 – 2026.06]
     * **Data Engineering Team Leader** [2025.12 – 2026.06]
