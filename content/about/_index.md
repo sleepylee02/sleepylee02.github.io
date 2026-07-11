@@ -33,12 +33,12 @@ Recently, I have been exploring how this systems perspective can extend toward *
 ---
 
 ### Leadership & Experience
-* **Undergraduate Intern — RTCL@Yonsei** [2026.1 – Present]
-* **YBIGTA (Yonsei Big Data Society)** [2024.12 – Present]
+* **Undergraduate Research Intern — RTCL@Yonsei** [2026.1 – Present]
+* **YBIGTA (Yonsei Big Data Society)** [2024.12 – 2026.06]
     * **Data Engineering Team Leader** [2025.12 – 2026.06]
     * **Vice President** [2025.06 – 2025.12]
 * **Military Service** Completed [2022.4 – 2023.10]
-* **Yonsei VERY (Startup Club)** [2021.6 – 2021.12]
+* **VERY (Venture Establishment Research of Yonsei)** [2021.6 – 2021.12]
 * **Postech Creative Entrepreneur Omphalos (PCEO)** [2016 – 2018]
 
 ---
@@ -47,6 +47,7 @@ Recently, I have been exploring how this systems perspective can extend toward *
 * **Yonsei University** [2021 – Present]
     * **Major**: Applied Statistics
     * **Double Major**: Computer Science
+    * **Integrated B.S.–M.S. Program**: Computer Science [2026.03]
 * **Hankuk Academy of Foreign Studies (HAFS)** [2018 – 2020]
 * **Cheongshim International Academy (CSIA)** [2015 – 2017]
   

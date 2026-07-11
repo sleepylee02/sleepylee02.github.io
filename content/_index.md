@@ -9,7 +9,7 @@ draft: false
 
 My main interest lies in solving problems from the system level and building efficient, reliable architectures for complex projects.
 
-Currently, I am an undergraduate intern at **Yonsei Real-Time Computing Lab**[(RTCL)](https://rtcl-yonsei.github.io/website/index.html). \
+Currently, I am an undergraduate research intern at **Yonsei Real-Time Computing Lab**[(RTCL)](https://rtcl-yonsei.github.io/website/index.html). \
 If you want to know more about me, visit the [About](/about/) page.
 
 
