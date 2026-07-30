@@ -65,3 +65,31 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 - [x] About updated
 - [x] Projects updated
 - [x] Study entries added
+
+## 7. Parked Projects and Study Review (2026-07-30)
+
+Status: Candidate review only. No featured-project selection, Study scope, or public content change is confirmed.
+
+### Project Candidates to Reassess
+
+- ROS2 + YOLO: verify the implementation artifacts and the recorded `10 Hz` to `30+ Hz` improvement before using it publicly.
+- Uber Data Pipeline: verify the architecture, individual contribution, and recorded `10,000+ events/s` result.
+- Third featured slot: compare Home Inference Server and NotebookLocal based on available code, architecture, measurements, and public artifacts.
+- S3-FIFO: keep as a supporting project candidate.
+- GPU Batching Prototype: keep on hold until a real implementation and measurements are located.
+- PRTG-VLA: keep under Current Research or Study until a stable experiment result supports promotion to Projects.
+
+### Study Milestone Candidates
+
+- `From Probabilistic Timing Guarantees to VLA Temporal Validity`
+- `Profiling pi0.5 Inference on LIBERO`
+- `When Does VLA Latency Become a Safety Problem?`
+
+Use public-safe milestone summaries rather than automatically publishing every meeting record or lab-internal artifact.
+
+### Resume Point
+
+1. Recheck the live repository and current research state.
+2. Verify the evidence and public safety of the project candidates.
+3. Select only two or three featured projects with the owner.
+4. Confirm whether the three Study milestones still represent the desired public research narrative.

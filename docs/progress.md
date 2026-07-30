@@ -10,6 +10,7 @@ This file tracks current work status and short completion summaries.
 ## In Progress
 | Date | Task | Status | Next Action |
 |---|---|---|---|
+| 2026-07-30 | Review Projects and Study refresh | Parked | Resume from section 7 of `docs/content_outline.md`; verify candidates before selecting or publishing |
 | 2026-02-16 | Align site structure with `docs/Explanation.md` | Done | Start filling real content |
 | 2026-02-16 | Convert `docs/context` notes into publishable content plan | In Progress | Apply outline to Home/About/Projects/Study pages |
 | 2026-02-16 | Establish accurate context-intake process | Done | Confirm open decisions and start project page drafting |
