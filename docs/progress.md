@@ -23,6 +23,7 @@ This file tracks current work status and short completion summaries.
 ## Completed Log
 | Date | What Was Done | Short Summary |
 |---|---|---|
+| 2026-07-30 | Clarified current research and systems background | Renamed the Home summary to Current Research and split About interests into Research Interests and Systems Background |
 | 2026-02-17 | Removed legacy section | Deleted the legacy section directory, removed its menu entry and links, and aligned docs to the new structure |
 | 2026-02-16 | Reworked site structure and content templates | Menu changed to `about/projects/study`; seeded `content/` with starter pages and templates |
 | 2026-02-16 | Removed old pages | Deleted `content/interests.md` and `content/reading.md` |

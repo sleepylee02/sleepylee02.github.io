@@ -21,14 +21,15 @@ Recently, I have been exploring how this systems perspective can extend toward *
 
 ---
 
-### Technical Interests
-* **Real-Time Systems:** Scheduling theory, task modeling, and extending real-time principles to AI inference and ROS
-* **System Programming:** Operating Systems, resource management, and low-level optimization
-* **Robotics:** Exploring ROS, embedded software, and real-time principles for intelligent physical systems
-* **AI Systems:** Efficient LLM serving and inference under resource constraints
-* **Infrastructure:** Designing and managing distributed systems
-  with cloud, network, and container orchestration foundations
-* **Data Engineering:** Designing scalable, fault-tolerant, and reliable data pipelines
+### Research Interests
+* **Real-Time Systems:** Scheduling, timing behavior, and reliability under resource and deadline constraints
+* **VLA & Robotic Systems:** Exploring how inference and execution timing affect reliable robot behavior
+* **Probabilistic Timing Analysis:** Reasoning about execution-time uncertainty and deadline-failure risk
+
+### Systems Background
+* **Operating Systems & System Programming:** Resource management, scheduling, and low-level system behavior
+* **AI Infrastructure:** Model serving and inference under limited computing resources
+* **Data Engineering:** Scalable, fault-tolerant streaming pipelines and distributed architectures
 
 ---
 
@@ -67,7 +68,6 @@ Recently, I have been exploring how this systems perspective can extend toward *
 * **Email**: See [Contact](/contact/) page for details.
 * For what I've built, see [Projects](/projects). 
   For study notes and experiment records, see [Study](/study).
-
 
 
 

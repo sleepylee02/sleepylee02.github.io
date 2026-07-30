@@ -16,7 +16,7 @@ To learn more about me, visit the [About](/about/) page.
 
 
 
-## Current Focus
+## Current Research
 - **Real-Time Systems:** Real-Time Theory and Implementation on real-world system
 - **Robotics:** System-level design and optimization for robotics
 - **AI Systems:** Efficient inference and serving under resource constraints

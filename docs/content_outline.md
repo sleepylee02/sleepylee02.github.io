@@ -28,11 +28,13 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 - One-line identity: Applied Statistics + Computer Science student focused on systems performance and architecture.
 - Positioning sentence: from data analysis to systems optimization under constraints.
 - Current focus candidates: operating systems, distributed systems, efficient AI serving.
+- Use `Current Research` as the heading for the active-area summary.
 
 ### About (`content/about/_index.md`)
 - Education: Yonsei University (2021-current), Applied Statistics major + Computer Science double major.
 - Keep only concise profile, focus, and key experiences.
 - Experience highlights: YBIGTA vice president and data engineering team leadership.
+- Separate `Research Interests` (real-time systems, VLA/robotics, probabilistic timing) from `Systems Background` (OS, AI infrastructure, data engineering).
 
 ### Projects (`content/projects/`)
 - Priority 1: Home inference server setup (DeepSeek operation, 25-1).

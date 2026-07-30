@@ -42,6 +42,7 @@ Confidence rule:
 | Home featured projects (2-3) | Inference server, S3-FIFO, ROS2+YOLO | Applied | Pending Review |
 | YBIGTA leadership end date | 2026.06 (from context note) | Provisional | Pending |
 | Public page language style | Full English pages (current) | Applied | Pending Review |
+| About interest hierarchy | Research Interests: real-time systems, VLA/robotics, probabilistic timing; Systems Background: OS, AI infrastructure, data engineering | Resolved | Confirmed 2026-07-30 |
 
 ## 5. Open Questions
 - Which 2-3 projects should be featured on Home right now?
