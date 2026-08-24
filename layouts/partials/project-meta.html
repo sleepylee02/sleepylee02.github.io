@@ -1,0 +1,17 @@
+{{- $status := .Params.project_status -}}
+{{- $year := .Params.project_year -}}
+{{- $hasState := or $status $year -}}
+{{- if $hasState -}}
+<div class="project-meta">
+  <span class="project-meta__state">
+    {{- with $status -}}{{ . }}{{- end -}}
+    {{- if and $status $year }} · {{ end -}}
+    {{- with $year -}}{{ . }}{{- end -}}
+  </span>
+  {{- with .Params.lastmod -}}
+    <span class="project-meta__freshness">
+      Last updated · <time datetime="{{ $.Lastmod.Format "2006-01-02" }}">{{ $.Lastmod.Format "January 2006" }}</time>
+    </span>
+  {{- end -}}
+</div>
+{{- end -}}

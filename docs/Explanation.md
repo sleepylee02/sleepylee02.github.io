@@ -4,13 +4,16 @@
 # GitHub.io Site Structure & Content Guide
 
 This document defines the **content structure and philosophy** of my GitHub Pages website.
-The goal is to focus on a **portfolio-focused personal site** and a **Study archive** to track my progress.
+The goal is to present a **researcher-focused personal site** with a concise public research narrative and selected project evidence.
 
 ---
 
 ## Core Concept
 
-- **No traditional blog**. The Study section serves as the continuous record.
+- **No traditional blog or weekly public log**. Research is curated around the current question, trajectory, and stable public evidence.
+- **Freshness is explicit**. Curated pages show their last meaningful content review; build or styling changes do not refresh that date.
+- **Editorial structure stays consistent**. Research, Projects, and About use ordinary headings, lists, and horizontal dividers. Repeated research and selected-work items may use one shared typographic entry pattern, without cards or boxes.
+- **Visual hierarchy is deliberate**. Public pages share one page-start rhythm, clear title levels, and subdued dividers instead of inheriting stacked theme margins.
 
 > This site represents a *growing systems engineer / researcher*, not a finished product.
 
@@ -28,11 +31,8 @@ content/
 │   ├── project-b.md
 │   └── ...
 │
-├── study/             # Ongoing study archive (notes, experiments, meeting materials)
-│   ├── _index.md
-│   ├── paper-gedf.md
-│   ├── gpu-batching.md
-│   └── ...
+├── research/          # Curated current research direction
+│   └── _index.md
 │
 ├── about/             # Curated public profile
 │   └── _index.md
@@ -41,7 +41,7 @@ content/
 │   └── _index.md
 │
 
-````
+```
 
 ---
 
@@ -112,50 +112,26 @@ content/
 
 ---
 
-### 3. Study (`content/study/`)
+### 3. Research (`content/research/`)
 
 **Purpose**
 
-> Keep an ongoing archive of what I read, build, test, and present.
+> Explain the current research question, why it matters, and how the direction is evolving.
 
-**Operating Style**
+**Contains**
 
-- **Frequency**: Flexible (regular updates plus event-driven notes).
-- **Source**: Meeting materials, experiments, reading notes, and implementation work.
-- **Format**:
-    - Context or goal
-    - What was read/built/tested
-    - Key observations and trade-offs
-    - Next actions
-    - Optional attachment (PPT/PDF/link)
-- **Goal**: Keep evidence of consistent progress and experimentation with minimal overhead.
+- Three stable research areas that connect foundations, methods, and the current application domain
+- One current research question
+- A small set of active investigation axes
+- A concise account of how the framing changed
+- Explicit boundaries between ongoing hypotheses and established results
 
-**Template**
-```markdown
----
-title: "Study Note: 2026-XX-XX Topic"
-date: 2026-XX-XX
-tags: ["study-note"]
----
-## Context
-- Why this note exists
+**Does NOT contain**
 
-## What I Read/Built/Tested
-- Item A
-- Item B
+- Automatic weekly meeting uploads
+- Raw experiment logs or lab-internal notes
+- Unstable claims presented as finished results
 
-## Key Observations
-- What worked
-- What did not work
-- What to improve
-
-## Next Actions
-- Next step 1
-- Next step 2
-
-## Optional Attachment
-[PPT/PDF/Link](/files/2026-xx-xx-note.pdf)
-```
 ---
 
 ### 4. About (`content/about/`)
@@ -213,7 +189,7 @@ tags: ["study-note"]
 |---|---|
 |Home|Who am I?|
 |Projects|What have I built?|
-|Study|What am I learning, testing, and documenting now?|
+|Research|What question am I working on now, and how is it evolving?|
 |About|What is my official profile?|
 |Contact|How can someone reach me?|
 
@@ -224,4 +200,4 @@ tags: ["study-note"]
 ## One-Sentence Summary
 
 > This site is not a blog.  
-> It is a **living record of growth as a systems engineer and researcher**.
+> It is a **curated researcher profile grounded in current questions and selected work**.

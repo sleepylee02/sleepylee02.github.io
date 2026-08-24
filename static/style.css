@@ -1,4 +1,308 @@
 /* Custom CSS overrides */
+.logo,
+.navigation-menu,
+.menu,
+.index-content > h1,
+.home-profile__content h1,
+.post-meta,
+.post-tags,
+.post-date,
+button,
+.button {
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    "Ubuntu Mono",
+    monospace;
+}
+
+.container.center {
+  max-width: 900px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.navigation-menu__link--active {
+  font-weight: 600;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+}
+
+.index-content {
+  margin: 16px 0 25px;
+  line-height: 1.65;
+}
+
+.index-content > h1 {
+  margin: 0 0 12px;
+  font-size: calc(var(--font-size) * 1.85);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.home-profile {
+  margin: 0 0 56px;
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 34px;
+  align-items: start;
+}
+
+.home-profile__photo {
+  width: 150px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.home-profile__content h1 {
+  margin: -4px 0 8px;
+  font-size: calc(var(--font-size) * 2.05);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.home-profile__role,
+.home-profile__affiliation,
+.home-profile__statement {
+  margin: 0;
+}
+
+.home-profile__role {
+  font-weight: 600;
+}
+
+.home-profile__affiliation {
+  margin-top: 3px;
+  font-size: 0.95rem;
+}
+
+.home-profile__statement {
+  max-width: 55ch;
+  margin-top: 22px;
+  font-size: calc(var(--font-size) * 1.08);
+  line-height: 1.65;
+}
+
+.index-content > h2 {
+  margin: 56px 0 20px;
+  padding-top: 14px;
+  border-top: 1px solid color-mix(in srgb, var(--foreground) 18%, transparent);
+  font-size: calc(var(--font-size) * 1.45);
+  line-height: 1.3;
+}
+
+.index-content > h3 {
+  margin: 32px 0 14px;
+  font-size: calc(var(--font-size) * 1.25);
+  line-height: 1.35;
+}
+
+.index-content > hr {
+  height: 1px;
+  margin: 40px 0 24px;
+  background: color-mix(in srgb, var(--foreground) 18%, transparent);
+}
+
+.index-content > hr + h3 {
+  margin-top: 0;
+}
+
+.index-content > h3 + ul {
+  margin-top: 14px;
+}
+
+.index-content > h3 + .content-entry {
+  margin-top: 18px;
+}
+
+.index-content > p {
+  max-width: 72ch;
+}
+
+.index-content > ul {
+  max-width: 76ch;
+}
+
+.page-freshness,
+.project-meta {
+  color: color-mix(in srgb, var(--foreground) 58%, transparent);
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    monospace;
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
+.page-freshness {
+  margin: 0 0 24px;
+}
+
+.page-freshness + p,
+.page-freshness + img {
+  margin-top: 0;
+}
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  margin: 6px 0 18px;
+}
+
+.project-meta__state {
+  color: color-mix(in srgb, var(--foreground) 76%, transparent);
+}
+
+.content-entry {
+  max-width: 72ch;
+  margin-top: 24px;
+}
+
+.content-entry + .content-entry {
+  margin-top: 28px;
+}
+
+.content-entry__heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 12px;
+  align-items: baseline;
+}
+
+.content-entry__heading h4 {
+  margin: 0;
+  font-size: calc(var(--font-size) * 1.08);
+  line-height: 1.35;
+}
+
+.content-entry__status,
+.content-entry__meta,
+#research-trajectory + p {
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    monospace;
+}
+
+.content-entry__status {
+  color: var(--accent);
+  font-size: 0.69rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.content-entry__summary {
+  max-width: 65ch;
+  margin: 6px 0 0;
+  line-height: 1.6;
+}
+
+.content-entry__summary p {
+  margin: 0;
+}
+
+.content-entry__meta {
+  max-width: 76ch;
+  margin: 7px 0 0;
+  color: color-mix(in srgb, var(--foreground) 58%, transparent);
+  font-size: 0.74rem;
+  line-height: 1.55;
+}
+
+#current-focus + p > strong {
+  display: block;
+  margin-bottom: 5px;
+  color: color-mix(in srgb, var(--foreground) 68%, transparent);
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#research-trajectory + p {
+  max-width: 78ch;
+  color: color-mix(in srgb, var(--foreground) 64%, transparent);
+  font-size: 0.76rem;
+  line-height: 1.65;
+}
+
+#additional-work ~ h4 {
+  margin: 26px 0 8px;
+  font-size: calc(var(--font-size) * 1.02);
+}
+
+#additional-work ~ h4 + ul {
+  margin-top: 0;
+}
+
+#additional-work ~ h4 + ul > li {
+  margin: 6px 0;
+}
+
+.additional-work__meta {
+  display: block;
+  margin-top: 1px;
+  color: color-mix(in srgb, var(--foreground) 58%, transparent);
+  font-family:
+    "Fira Code",
+    "JetBrains Mono",
+    Monaco,
+    Consolas,
+    monospace;
+  font-size: 0.74rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 684px) {
+  .index-content {
+    margin-top: 12px;
+  }
+
+  .index-content > h1 {
+    font-size: calc(var(--font-size) * 1.75);
+  }
+
+  .home-profile {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+
+  .home-profile__photo {
+    width: 120px;
+  }
+
+  .project-meta {
+    gap: 3px 12px;
+  }
+
+  .content-entry__heading {
+    gap: 5px 9px;
+  }
+
+  .index-content > h2 {
+    margin-top: 48px;
+  }
+}
+
 .post-title .bracket-text {
   color: #888;
   /* A distinct gray color for the bracket text */

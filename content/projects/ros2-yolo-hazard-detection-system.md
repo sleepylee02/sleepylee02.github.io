@@ -1,6 +1,9 @@
 ---
 title: "ROS2 + YOLO Hazard Detection System"
 date: 2026-02-16
+lastmod: 2026-08-24
+project_status: "Completed"
+project_year: 2025
 draft: true
 tags: ["systems", "ros2", "robotics", "real-time"]
 ---

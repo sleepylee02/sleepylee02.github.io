@@ -1,6 +1,9 @@
 ---
 title: "Project Template"
 date: 2026-02-16
+# lastmod: YYYY-MM-DD
+# project_status: "Completed"
+# project_year: YYYY
 draft: true
 tags: ["template"]
 ---

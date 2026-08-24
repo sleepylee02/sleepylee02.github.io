@@ -1,12 +1,14 @@
 ---
 title: "About"
+description: "Undergraduate researcher in real-time systems at Yonsei University."
 date: 2026-02-16
+lastmod: 2026-08-24
 draft: false
 ---
 
-## About Jaeyoung Lee
+# About Jaeyoung Lee
 
-{{< image src="/profile.jpg" alt="Jaeyoung Lee profile photo" width="220" style="border: none !important; padding: 0 !important; box-shadow: none !important;" >}}
+{{< freshness label="Last updated" format="January 2006" >}}
 
 Hello, my name is Jaeyoung Lee. \
 I am an undergraduate student at Yonsei University, 
@@ -61,17 +63,3 @@ Recently, I have been exploring how this systems perspective can extend toward *
   analyze and reason about system behavior.
 - **Depth over Breadth**: I follow curiosity widely, but commit
   deeply once I find the right problem.
-
----
-
-### Contact
-* **Email**: See [Contact](/contact/) page for details.
-* For what I've built, see [Projects](/projects). 
-  For study notes and experiment records, see [Study](/study).
-
-
-
-
-
-
-

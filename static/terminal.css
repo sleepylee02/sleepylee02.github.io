@@ -1,5 +1,5 @@
-/* Fira Code: https://github.com/tonsky/FiraCode */
-@import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&display=swap');
+/* Inter for reading, Fira Code for terminal-flavored UI and code. */
+@import url('https://cdn.staticdelivr.com/gfonts/css2?family=Fira+Code:wght@300..700&family=Inter:wght@400..700&display=swap');
 
 :root {
   --background: #ffffff;
@@ -24,12 +24,11 @@ html {
 
 body {
   font-family:
-    "Fira Code",
-    "JetBrains Mono",
-    Monaco,
-    Consolas,
-     "Ubuntu Mono",
-    monospace;
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
   font-size: var(--font-size);
   font-weight: 400;
   line-height: var(--line-height);

@@ -1,0 +1,15 @@
+{{- $title := .Get "title" -}}
+{{- $meta := .Get "meta" -}}
+{{- $isCurrent := eq (.Get "current") "true" -}}
+<article class="content-entry{{ if $isCurrent }} content-entry--current{{ end }}">
+  <div class="content-entry__heading">
+    <h4>{{ $title | markdownify }}</h4>
+    {{- if $isCurrent }}
+      <span class="content-entry__status">Current</span>
+    {{- end }}
+  </div>
+  <div class="content-entry__summary">{{ .Inner | markdownify }}</div>
+  {{- with $meta }}
+    <p class="content-entry__meta">{{ . }}</p>
+  {{- end }}
+</article>

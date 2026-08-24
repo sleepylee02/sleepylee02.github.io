@@ -1,6 +1,9 @@
 ---
 title: "Implementing S3-FIFO Cache Policy"
 date: 2026-02-16
+lastmod: 2026-08-24
+project_status: "Completed"
+project_year: 2025
 draft: true
 tags: ["systems", "cache", "algorithm", "performance"]
 ---

@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Jaeyoung Lee"
 theme = "terminal"
 
+[frontmatter]
+  lastmod = ["lastmod"]
+
 [params]
   contentTypeName = "posts"
   themeColor = "orange" 
@@ -30,15 +33,15 @@ theme = "terminal"
     url = "/about/"
     weight = 2
   [[menu.main]]
+    identifier = "research"
+    name = "research"
+    url = "/research/"
+    weight = 3
+  [[menu.main]]
     identifier = "projects"
     name = "projects"
     url = "/projects/"
     weight = 4
-  [[menu.main]]
-    identifier = "study"
-    name = "study"
-    url = "/study/"
-    weight = 3
   [[menu.main]]
     identifier = "contact"
     name = "contact"

@@ -1,0 +1,8 @@
+{{- $label := .Get "label" | default "Last updated" -}}
+{{- $format := .Get "format" | default "January 2006" -}}
+{{- $lastmod := .Page.Lastmod -}}
+{{- with .Page.Params.lastmod -}}
+<p class="page-freshness">
+  {{ $label }} · <time datetime="{{ $lastmod.Format "2006-01-02" }}">{{ $lastmod.Format $format }}</time>
+</p>
+{{- end -}}

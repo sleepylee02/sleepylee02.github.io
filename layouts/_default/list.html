@@ -10,16 +10,20 @@
         <h2 class="post-title">
           <a href="{{ .Permalink }}">{{ .Title | markdownify | replaceRE "\\[([^\\]]+)\\]" "<span class='bracket-text'>[$1]</span>" | safeHTML }}</a>
         </h2>
-        <div class="post-meta">
-          {{- if .Date -}}
-            <time class="post-date">
-              {{- partial "post-date" . -}}
-            </time>
-          {{- end -}}
-          {{- with .Params.Author -}}
-            <span class="post-author">{{- . -}}</span>
-          {{- end -}}
-        </div>
+        {{- if eq $.Section "projects" -}}
+          {{- partial "project-meta.html" . -}}
+        {{- else -}}
+          <div class="post-meta">
+            {{- if .Date -}}
+              <time class="post-date">
+                {{- partial "post-date" . -}}
+              </time>
+            {{- end -}}
+            {{- with .Params.Author -}}
+              <span class="post-author">{{- . -}}</span>
+            {{- end -}}
+          </div>
+        {{- end -}}
 
         {{ if .Params.tags }}
           <span class="post-tags">

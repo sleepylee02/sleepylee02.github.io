@@ -6,21 +6,22 @@ Operational guide for maintaining this Hugo-based portfolio site.
 - Type: Static Site Generator (Hugo)
 - Theme: `terminal`
 - Deployment target: GitHub Pages
-- Site positioning: portfolio + ongoing study archive (not a traditional blog)
+- Site positioning: researcher portfolio + curated current research overview
 
 ## 2. Current Navigation and Content Model
 
 Main menu (from `hugo.toml`):
+- `/`
 - `/about/`
+- `/research/`
 - `/projects/`
-- `/study/`
 - `/contact/`
 
 Content sections (under `content/`):
 - `content/_index.md`: Home
 - `content/about/_index.md`: About
 - `content/projects/`: Project pages
-- `content/study/`: Study notes and logs (meeting/experiment/reading/implementation)
+- `content/research/_index.md`: Curated current research direction
 - `content/contact/_index.md`: Contact links
 
 ## 3. Directory Structure and Ownership
@@ -43,20 +44,28 @@ Content sections (under `content/`):
 
 When adding content:
 1. Extract/verify facts in `docs/context_intake.md`.
-2. Decide the target section (`about`, `projects`, `study`, `contact`).
+2. Decide the target section (`research`, `about`, `projects`, `contact`).
 3. Create a Markdown file with front matter:
 ```markdown
 ---
 title: "Page Title"
 date: 2026-02-16
+lastmod: 2026-08-24
 draft: false
 ---
 ```
 4. Keep section intent aligned with `docs/Explanation.md`.
 
+Freshness metadata:
+- `date` records when the page was first created or published.
+- `lastmod` records the most recent meaningful content review.
+- Hugo resolves `lastmod` only from the explicit front matter field; it does not fall back to `date`.
+- Update `lastmod` after factual or editorial review, not for styling, build, or typo-only changes.
+- Project completion state uses separate `project_status` and `project_year` fields.
+
 Recommended patterns:
 - Projects: problem, approach, trade-offs, result, lesson.
-- Study entry: context, what was read/built/tested, observations, next actions, optional attachment.
+- Research: current question, evidence boundary, public-safe trajectory, and stable selected artifacts only.
 
 ## 5. Development Workflow
 
