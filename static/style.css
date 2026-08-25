@@ -30,6 +30,7 @@ button,
   font-weight: 600;
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
+  text-decoration-skip-ink: none;
 }
 
 .index-content {
