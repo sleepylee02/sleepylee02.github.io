@@ -1,6 +1,13 @@
 # Content Outline
 
-Generated from `docs/content_outline_raw.md` on 2026-02-17.
+Status: current domain content plan and candidate inventory
+
+This file owns detailed page mapping and publication candidates. It does not own Current
+Attention, an active checkpoint, or a next action; those belong to
+`00-workspace/workstream/README.md` and its bound record.
+
+Initially generated from `docs/content_outline_raw.md` on 2026-02-17. That raw input is
+now historical; later confirmed updates in this file supersede its Study-era vocabulary.
 
 ## 1. Current Goal
 - Keep Home legible as a 30-second researcher introduction.
@@ -19,7 +26,11 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 - Use verified items from `docs/context_intake.md` (e.g., `F-001` to `F-013`).
 - Do not publish unverified statements without owner confirmation.
 
-## 2.2 Provisional Execution Order
+## 2.2 Historical Provisional Execution Order
+
+The following 2026-02-16 order is retained as domain planning history. It is not a live
+execution queue.
+
 1. Finalize Home and About copy from `F-001`, `F-003`, `F-005`.
 2. Build two full project pages first from `F-004`, `F-009` (Inference server and S3-FIFO).
 3. Add one additional project (ROS2+YOLO or Uber pipeline) after metric availability check.
@@ -66,7 +77,10 @@ Generated from `docs/content_outline_raw.md` on 2026-02-17.
 - Close Research Trajectory with the owner-confirmed long-term aim of making real-time systems a practical foundation for reliable robotic intelligence.
 - Keep discarded hypotheses and candidate runtime diagnostics out of the overview until they are supported by a stable public milestone.
 
-## 4. Gaps and Questions
+## 4. Candidate Gaps and Questions
+
+These items are not active Workstreams until the user selects a bounded effort.
+
 - Home and Projects currently feature ROBO 404++ and the Uber-style distributed data pipeline.
 - Public pages are currently written in English.
 - Confirm exact end date for YBIGTA data engineering team leader role (provisional: 2026.06).
@@ -103,7 +117,10 @@ Status: Superseded on 2026-08-24. The Research page and featured-project selecti
 
 Use public-safe milestone summaries only after a result is stable enough to explain. Do not automatically publish meeting records or lab-internal artifacts.
 
-### Resume Point
+### Historical Resume Point
+
+This resume point belonged to the superseded 2026-07-30 checkpoint. Do not use it as
+current execution state.
 
 1. Recheck the live repository and current research state.
 2. Verify the evidence and public safety of the project candidates.

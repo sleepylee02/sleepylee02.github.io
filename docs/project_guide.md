@@ -28,13 +28,18 @@ Content sections (under `content/`):
 
 | Directory/File | Purpose |
 | :--- | :--- |
+| `README.md` | Stable human entry to the repository and its owners. |
+| `WORKSPACE.md` | Purpose, ownership boundary, and final domain/WOS bindings. |
+| `00-workspace/` | Target-local WOS coordination, Guides, records, logs, maps, and ignored Transit. |
 | `hugo.toml` | Main site configuration (title, params, menu). |
 | `content/` | Public page content in Markdown. |
-| `docs/` | Internal docs for planning/operation. |
-| `docs/rules.md` | Working contract: read order, behavior rules, done criteria. |
+| `docs/` | Domain docs for content design, fact verification, and detailed planning. |
+| `00-workspace/workstream/guides/content-update.md` | Public-content update procedure, privacy rules, and done criteria. |
 | `docs/Explanation.md` | Content strategy and section philosophy. |
 | `docs/context_intake.md` | Verified facts extracted from `docs/context/*` before publishing. |
-| `docs/progress.md` | Progress tracking and completion log. |
+| `docs/content_outline.md` | Detailed content mapping and candidate inventory; not active Workstream state. |
+| `00-workspace/workstream/README.md` | Current Attention and Workstream lifecycle view. |
+| `00-workspace/workstream/log/` | Material coordination chronology. |
 | `archetypes/default.md` | Default front matter template for new content. |
 | `static/` | Static assets served as-is (files, images, favicon). |
 | `themes/terminal/` | Theme source. Avoid direct edits unless necessary. |
@@ -42,7 +47,9 @@ Content sections (under `content/`):
 
 ## 4. Content Writing Workflow
 
-When adding content:
+When adding content, follow
+`00-workspace/workstream/guides/content-update.md`. The domain-level sequence is:
+
 1. Extract/verify facts in `docs/context_intake.md`.
 2. Decide the target section (`research`, `about`, `projects`, `contact`).
 3. Create a Markdown file with front matter:
@@ -100,7 +107,11 @@ After this, pushes to `main` deploy the latest Hugo build automatically.
 ## 6. Notes and Maintenance Rules
 - `public/` is build output and is ignored by Git.
 - `.hugo_build.lock` is a temporary lock file and is ignored by Git.
-- Keep internal planning documents in `docs/`.
+- Keep domain content design, fact verification, and detailed planning in `docs/`.
+- Keep current checkpoints, Guides, and material coordination logs under `00-workspace/`.
+- Never recreate a parallel current-state or progress-log authority under `docs/`.
+- `docs/context/` is ignored private source material; never stage or copy it without
+  exact fact extraction and public-safety review.
 - If site structure changes, update `docs/Explanation.md` first, then reflect in `content/` and `hugo.toml`.
 
 ---

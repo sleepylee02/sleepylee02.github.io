@@ -1,23 +1,27 @@
 # Content Outline Raw
 
-Free-form scratchpad for incoming ideas.
-Write one idea per bullet with a tag, then convert this file into `docs/content_outline.md`.
+Status: historical input, superseded by `docs/content_outline.md`
 
-## Tag Rules
+This was the free-form scratchpad used for the 2026-02 content cycle. Its Study-era
+paths and goals are preserved as historical domain input, not as current writing or
+execution instructions. Put current page mapping and candidates in
+`docs/content_outline.md`; put active effort state in the bound WOS Workstream record.
+
+## Historical Tag Rules
 Use this format:
 - `[goal]` update-cycle goal
 - `[source]` source material location
 - `[home]` content for `content/_index.md`
 - `[about]` content for `content/about/_index.md`
 - `[project]` content for `content/projects/...`
-- `[study]` content for `content/study/...`
+- `[study]` content for the retired `content/study/...` structure
 - `[question]` open questions or missing facts
 - `[private]` sensitive items that should not be published
 
 Bullet format:
 - `[tag]` one sentence or one fact
 
-## Raw Notes
+## Historical Raw Notes
 - [goal] Convert docs/context notes into publish-ready copy for Home/About and a prioritized project list.
 - [goal] Replace placeholder examples with real content in Projects and Study sections.
 - [goal] Keep About concise with only short growth context.
