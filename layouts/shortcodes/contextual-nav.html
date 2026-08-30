@@ -1,0 +1,22 @@
+{{- $current := .Get "current" -}}
+{{- $sections := slice "about" "research" "projects" "contact" -}}
+{{- if not (in $sections $current) -}}
+  {{- errorf "contextual-nav requires current to be one of: about, research, projects, contact" -}}
+{{- end -}}
+{{- $items := slice
+  (dict "key" "about" "href" "/about/" "label" "More about me")
+  (dict "key" "research" "href" "/research/" "label" "Explore my research")
+  (dict "key" "projects" "href" "/projects/" "label" "See selected projects")
+  (dict "key" "contact" "href" "/contact/" "label" "Get in touch")
+-}}
+<nav class="contextual-nav" aria-label="Explore other sections">
+  <ul class="contextual-nav__list">
+    {{- range $items }}
+      {{- if ne .key $current }}
+        <li class="contextual-nav__item">
+          <a href="{{ .href }}">{{ .label }} <span aria-hidden="true">→</span></a>
+        </li>
+      {{- end }}
+    {{- end }}
+  </ul>
+</nav>

@@ -63,3 +63,7 @@ Recently, I have been exploring how this systems perspective can extend toward *
   analyze and reason about system behavior.
 - **Depth over Breadth**: I follow curiosity widely, but commit
   deeply once I find the right problem.
+
+---
+
+{{< contextual-nav current="about" >}}

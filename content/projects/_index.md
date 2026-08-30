@@ -70,3 +70,7 @@ An end-to-end streaming pipeline connecting Kafka, Flink, ClickHouse, and ONNX i
   {{< additional-work-meta text="Web crawling · Clustering · Sentiment analysis" >}}
 - **Bicycle Wheelset Analysis Using Community Opinions [24-S]**
   {{< additional-work-meta text="Community web scraping · R text mining · Sentiment analysis" >}}
+
+---
+
+{{< contextual-nav current="projects" >}}

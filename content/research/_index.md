@@ -48,3 +48,7 @@ Real-Time Systems → Probabilistic Timing Analysis → ML and Real-Time Systems
 
 My research has evolved from scheduling and probabilistic timing analysis toward VLA runtime safety.<br>
 Long term, I aim to make real-time systems a practical foundation for reliable robotic intelligence.
+
+---
+
+{{< contextual-nav current="research" >}}
