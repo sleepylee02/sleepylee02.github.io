@@ -32,6 +32,9 @@ until the user explicitly opens a bounded effort.
 
 ## Record map
 
+- [Workstream records](records/README.md)
 - [Content-update guide](guides/content-update.md)
+- [Guide index](guides/README.md)
 - [Decision maps](maps/README.md)
+- [Durable WOS decisions](decisions/README.md)
 - [Daily log](log/README.md)

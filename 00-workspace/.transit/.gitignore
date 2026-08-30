@@ -1,3 +1,6 @@
 *
 !.gitignore
 !README.md
+!handoffs/
+handoffs/*
+!handoffs/README.md

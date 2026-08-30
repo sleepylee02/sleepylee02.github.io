@@ -41,14 +41,19 @@ implementation detail.
 
 ## WOS artifact bindings
 
+- Glossary shell: `00-workspace/GLOSSARY.md`
+- Design shell: `00-workspace/design/README.md`
+- References shell: `00-workspace/references/README.md`
+- History shell: `00-workspace/history/README.md`
 - Workstream records: `00-workspace/workstream/records/`
 - Decision maps: `00-workspace/workstream/maps/`
+- Durable WOS decisions: `00-workspace/workstream/decisions/`
 - Guides: `00-workspace/workstream/guides/`
 - Log: `00-workspace/workstream/log/daily/`
 
-No target-local WOS Design, Durable Decision, Glossary, or Reference binding is active.
-Create one only when confirmed content requires that role; do not alias domain documents
-into it.
+All target-local WOS role paths are materialized as stable shells. No target-local WOS
+Design, durable Decision, Glossary, Reference, or History content is active until a
+confirmed need populates the role; domain documents are not aliased into these shells.
 
 ## Runtime bindings
 
@@ -58,6 +63,9 @@ into it.
 
 Transit is temporary context-package state. Generated Hugo output and raw source context
 are not WOS memory and must not be staged.
+
+The `.agents/skills/` and `.codex/` shells are present but inactive. Their READMEs
+activate no local Skill, hook, or trusted runtime behavior.
 
 ## External bindings
 
