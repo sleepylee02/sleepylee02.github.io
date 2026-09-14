@@ -10,7 +10,8 @@ The goal is to present a **researcher-focused personal site** with a concise pub
 
 ## Core Concept
 
-- **No traditional blog or weekly public log**. Research is curated around the current question, trajectory, and stable public evidence.
+- **No traditional blog or weekly public log**. Research is curated around research areas, systems background, trajectory, and stable public evidence.
+- **Sharing previews stay concise**. Home uses Jaeyoung Lee as the title and Real-Time Systems · Robotics as its search and Open Graph description. The common preview image remains the original blue pattern in `static/og-image.png`.
 - **Freshness is explicit**. Curated pages show their last meaningful content review; build or styling changes do not refresh that date.
 - **Editorial structure stays consistent**. Research, Projects, and About use ordinary headings, lists, and horizontal dividers. Repeated research and selected-work items may use one shared typographic entry pattern, without cards or boxes.
 - **Visual hierarchy is deliberate**. Public pages share one page-start rhythm, clear title levels, and subdued dividers instead of inheriting stacked theme margins.
@@ -92,14 +93,15 @@ content/
 
 **Organization**
 
-- Grouped by domain, not by year:
-    
-    - AI Systems & Serving
-        
-    - Data Engineering & Streaming
-        
-    - OS / Systems
-        
+Additional Work is grouped by domain in this display order:
+
+1. Robotics
+2. Systems & Infrastructure
+3. AI Applications
+4. Data Analysis & Forecasting
+
+The AI Applications group includes the personal work, knowledge, and dashboard
+systems alongside the existing knowledge-assistance, agent, and recommendation projects.
 
 **Each project page should answer**
 
@@ -116,14 +118,13 @@ content/
 
 **Purpose**
 
-> Explain the current research question, why it matters, and how the direction is evolving.
+> Explain research interests, the systems background behind them, and how the direction is evolving.
 
 **Contains**
 
-- Three stable research areas that connect foundations, methods, and the current application domain
-- One current research question
-- A small set of active investigation axes
-- A concise account of how the framing changed
+- Three stable research areas in the existing order, with VLA & Robotic Systems labeled Current Focus
+- Systems Background: operating systems and system programming, AI infrastructure, and data engineering
+- A concise Research Trajectory
 - Explicit boundaries between ongoing hypotheses and established results
 
 **Does NOT contain**
@@ -142,14 +143,10 @@ content/
 
 **Contains**
 
-- Name
-    
-- University & major
-    
-- Research interests (refined)
-    
-- Current focus
-    
+- Profile introduction, including university, majors, and current focus
+- Experience & Leadership
+- Education
+- How I Think
 
 **Does NOT contain**
 
@@ -189,7 +186,7 @@ content/
 |---|---|
 |Home|Who am I?|
 |Projects|What have I built?|
-|Research|What question am I working on now, and how is it evolving?|
+|Research|What do I study, and how is my research evolving?|
 |About|What is my official profile?|
 |Contact|How can someone reach me?|
 

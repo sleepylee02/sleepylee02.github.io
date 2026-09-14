@@ -72,7 +72,7 @@ Freshness metadata:
 
 Recommended patterns:
 - Projects: problem, approach, trade-offs, result, lesson.
-- Research: current question, evidence boundary, public-safe trajectory, and stable selected artifacts only.
+- Research: research areas, systems background, evidence boundary, public-safe trajectory, and stable selected artifacts only.
 
 ## 5. Development Workflow
 

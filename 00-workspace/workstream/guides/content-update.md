@@ -37,7 +37,7 @@ the public surface.
 ## Section intent
 
 - Home: 30-second introduction, current focus, and entry links
-- Research: curated current question, trajectory, and public-safe framing
+- Research: curated research areas, systems background, trajectory, and public-safe framing
 - About: concise public profile
 - Projects: problem, approach, trade-offs, result, lessons, and evidence-backed metrics
 - Contact: public professional contact links only

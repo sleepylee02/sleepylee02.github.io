@@ -69,8 +69,8 @@ activate no local Skill, hook, or trusted runtime behavior.
 
 ## External bindings
 
-- WOS deployment observation:
-  `/home/sleepylee/Desktop/0imoy/00-dashboard/wos/`
+- Dashboard target observation:
+  `/home/sleepylee/Desktop/0imoy/00-dashboard/smooth-operator/targets.md`
 - Shared WOS design:
   `/home/sleepylee/Desktop/0imoy/01-moi/computer_and_me/my_overall_system/workstream_operating_system/`
 

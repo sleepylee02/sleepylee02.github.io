@@ -1,8 +1,8 @@
 ---
 title: "Projects"
-description: "Selected projects across robotics, AI infrastructure, operating systems, and data engineering."
+description: "Selected projects across robotics, systems infrastructure, AI applications, and data analysis."
 date: 2026-02-16
-lastmod: 2026-08-24
+lastmod: 2026-09-14
 draft: false
 ---
 
@@ -10,7 +10,7 @@ draft: false
 
 {{< freshness label="Last updated" format="January 2006" >}}
 
-Selected projects across robotics, AI infrastructure, operating systems, and data engineering.
+Selected projects across robotics, systems infrastructure, AI applications, and data analysis.
 
 ---
 
@@ -24,9 +24,20 @@ A physical 4WD robotic vehicle integrating Jetson Nano perception, TensorRT YOLO
 An end-to-end streaming pipeline connecting Kafka, Flink, ClickHouse, and ONNX inference, with distributed deployment and Prometheus/Grafana observability.
 {{< /content-entry >}}
 
+{{< content-entry title="Personal AI Work & Knowledge System" meta="Workstream Operating System · AI-Assisted Knowledge Wiki · Personal Dashboard" >}}
+A personal system for managing long-running projects with AI. It combines workflows for resuming work across sessions, a wiki for organizing and reusing knowledge, and a dashboard for navigating projects and context.
+{{< /content-entry >}}
+
 ---
 
 ### Additional Work
+
+#### Robotics
+
+- **ROBO 404++: Vision-Guided 4WD Robotic Vehicle [26-1]**
+  {{< additional-work-meta text="ROS2 Humble · Jetson Nano · TensorRT YOLOv8 · Pico 2/micro-ROS · Line following · Traffic-light control" >}}
+- **ROBO 404: Gazebo-Based Mobile Robot Simulation [25-2]**
+  {{< additional-work-meta text="ROS2 Jazzy · Gazebo · TurtleBot3 · Nav2 · YOLOv8 · Camera tracking · Safety assessment" >}}
 
 #### Systems & Infrastructure
 
@@ -39,12 +50,14 @@ An end-to-end streaming pipeline connecting Kafka, Flink, ClickHouse, and ONNX i
 - **Home Inference Server Setup [25-1]**
   {{< additional-work-meta text="Local LLM serving · Resource-constrained runtime tuning" >}}
 
-#### Robotics & AI Applications
+#### AI Applications
 
-- **ROBO 404++: Vision-Guided 4WD Robotic Vehicle [26-1]**
-  {{< additional-work-meta text="ROS2 Humble · Jetson Nano · TensorRT YOLOv8 · Pico 2/micro-ROS · Line following · Traffic-light control" >}}
-- **ROBO 404: Gazebo-Based Mobile Robot Simulation [25-2]**
-  {{< additional-work-meta text="ROS2 Jazzy · Gazebo · TurtleBot3 · Nav2 · YOLOv8 · Camera tracking · Safety assessment" >}}
+- **Workstream Operating System (WOS) [26-S]**
+  {{< additional-work-meta text="Cross-session workflows · Decision records · Handoff & resumption" >}}
+- **AI-Assisted Knowledge Wiki (LLM-Wiki) [26-S]**
+  {{< additional-work-meta text="Knowledge organization · LLM-assisted understanding · Knowledge reuse" >}}
+- **Personal Dashboard [26-S]**
+  {{< additional-work-meta text="Project navigation · Context recall · Workspace coordination" >}}
 - **NotebookLocal: Obsidian-Integrated RAG Knowledge Assistant [25-S]**
   {{< additional-work-meta text="Obsidian Plugin · PostgreSQL · Weaviate · Document-grounded RAG" >}}
 - **Legal Agent Development [25-1]**

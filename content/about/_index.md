@@ -2,7 +2,7 @@
 title: "About"
 description: "Undergraduate researcher in real-time systems at Yonsei University."
 date: 2026-02-16
-lastmod: 2026-08-24
+lastmod: 2026-09-14
 draft: false
 ---
 
@@ -20,18 +20,6 @@ problems at the **system level**.
 
 My current focus is on **real-time systems** — designing and optimizing systems that operate reliably under strict resource and deadline constraints. \
 Recently, I have been exploring how this systems perspective can extend toward **robotics**.
-
----
-
-### Research Interests
-* **Real-Time Systems:** Scheduling, timing behavior, and reliability under resource and deadline constraints
-* **VLA & Robotic Systems:** Exploring how inference and execution timing affect reliable robot behavior
-* **Probabilistic Timing Analysis:** Reasoning about execution-time uncertainty and deadline-failure risk
-
-### Systems Background
-* **Operating Systems & System Programming:** Resource management, scheduling, and low-level system behavior
-* **AI Infrastructure:** Model serving and inference under limited computing resources
-* **Data Engineering:** Scalable, fault-tolerant streaming pipelines and distributed architectures
 
 ---
 

@@ -41,9 +41,12 @@ execution queue.
 ### Home (`content/_index.md`)
 - One-line role: Undergraduate Researcher · Real-Time Systems.
 - Affiliation: Yonsei Real-Time Computing Lab (RTCL@Yonsei).
-- Research identity: predictable and reliable execution under timing and resource constraints, with machine-learning systems and robotics as the current focus.
+- Research identity: predictable and reliable execution under timing and resource constraints, with robotic systems as the current focus.
 - Current Research summary: connect real-time systems, probabilistic timing analysis, and VLA runtime safety; frame the active problem around coordinating inference, robot execution, monitoring, and recovery before intervention becomes ineffective.
 - Use `Current Research` as the heading for the active-area summary.
+- Expand VLA to vision-language-action (VLA) at its first Home mention (F-045).
+- Supply `Real-Time Systems · Robotics` as the Home search and Open Graph description through the theme's `params.subtitle` setting. Retain the original blue-pattern sharing image without added text (F-045).
+- Add Personal AI Work & Knowledge System as the third Selected Work entry, using the same integrated overview as Projects (F-038 to F-041).
 - Rely on the primary navigation and section-specific links instead of repeating the site menu beneath the Home profile.
 
 ### About (`content/about/_index.md`)
@@ -51,12 +54,16 @@ execution queue.
 - Keep only concise profile, focus, and key experiences.
 - Let Home carry the primary portrait; begin About directly with the profile narrative instead of repeating the same image.
 - Experience highlights: YBIGTA vice president and data engineering team leadership.
-- Keep `Research Interests` as Real-Time Systems, VLA & Robotic Systems, and Probabilistic Timing Analysis; keep it separate from `Systems Background` (OS, AI infrastructure, data engineering).
+- Preserve the introduction verbatim, followed by Experience & Leadership, Education, and How I Think in that order. Remove Research Interests and move Systems Background to Research to consolidate the technical overview (F-044).
 - End About after `How I Think`; keep email and profile links on the dedicated Contact page.
 
 ### Projects (`content/projects/`)
 - Show `Last updated` on the section page; show completion year and `Last updated` separately on reviewed individual projects.
-- Feature ROBO 404++ and the Uber-style distributed data pipeline as complementary Selected Work on both Home and Projects, covering physical robotics and production-oriented data infrastructure; keep both projects in the domain-grouped Additional Work list as part of the complete chronology.
+- Feature ROBO 404++, the Uber-style distributed data pipeline, and Personal AI Work & Knowledge System on both Home and Projects, covering physical robotics, data infrastructure, and personal AI workflows.
+- Explain the integrated Selected Work entry through its roles: resuming work across sessions, organizing and reusing knowledge, and navigating project context. Show the full component names as plain-text metadata beneath the summary: Workstream Operating System, AI-Assisted Knowledge Wiki, and Personal Dashboard. Do not turn these labels into links (F-043).
+- Keep Workstream Operating System (WOS), AI-Assisted Knowledge Wiki (LLM-Wiki), and Personal Dashboard as three separate [26-S] entries at the start of AI Applications in Additional Work. The integrated Selected Work summary explains their relationship; this update adds no dedicated project page (F-038 to F-041).
+- Order Additional Work as Robotics, Systems & Infrastructure, AI Applications, then Data Analysis & Forecasting. Split the former Robotics & AI Applications group: the two robot projects stay in Robotics; NotebookLocal, the legal agent, the form-filling agent, and the restaurant recommendation service join the three personal systems in AI Applications (F-042).
+- Retain the robotics and data-pipeline entries in the domain-grouped Additional Work list as part of the complete chronology.
 - Add AMIRec [26-1], Home Inference Server Setup [25-1], ROBO 404++ [26-1], and the New-Town traffic-safety analysis [25-W] as concise entries in their respective Additional Work groups; ROBO 404++ may also appear in Selected Work as the representative implementation.
 - Use a variable-length muted metadata line for evidence-backed implementation details; do not pad to a fixed tag count, repeat the title, or add a line when no useful verified detail is available.
 - Rename the former meal-recommendation entry to `RAG-Based Restaurant Recommendation Service` and simplify the baseball and form-filling titles to match the verified work.
@@ -65,14 +72,14 @@ execution queue.
 - Priority 3: ROS2 + YOLO hazard detection robot system (25-2).
 - Backup: Uber data pipeline project (25-W).
 - Keep project pages in a common structure: problem, approach, trade-offs, results, lessons.
-- Add at least one metric per featured project (latency, throughput, scale, reliability).
+- Add at least one verified metric per featured project (latency, throughput, scale, reliability) when developed into a detail page. The current Personal AI Work & Knowledge System listing stays at overview level without a performance claim.
 
 ### Research (`content/research/_index.md`)
 - Show `Last updated` beneath the page title using the shared month-and-year format.
-- Lead with the current question: coordinating VLA inference, execution, monitoring, and recovery before intervention becomes ineffective.
-- Keep only three concise active axes directly beneath it—timely monitoring, timing-aware intervention, and shared-resource scheduling—without a redundant explanatory paragraph.
-- Present the same three stable areas used on About: Real-Time Systems; Probabilistic Timing Analysis; VLA & Robotic Systems.
-- Mark VLA & Robotic Systems as the current area, and retain ML for RT and RT for ML as a connecting perspective rather than a separate top-level area.
+- Preserve the introduction and remove the Current Research Question section, including its three investigation axes (F-044).
+- Keep Research Areas in the existing order with unchanged descriptions: Real-Time Systems; Probabilistic Timing Analysis; VLA & Robotic Systems.
+- Label VLA & Robotic Systems as `Current Focus`, and retain ML for RT and RT for ML as the existing connecting paragraph.
+- Place Systems Background after Research Areas and the connecting paragraph, before Research Trajectory. Reuse the three existing About bullets verbatim, without an introductory sentence.
 - End with a concise Research Trajectory that connects scheduling and probabilistic timing analysis to ML workloads, VLA runtime monitoring, and safety.
 - Close Research Trajectory with the owner-confirmed long-term aim of making real-time systems a practical foundation for reliable robotic intelligence.
 - Keep discarded hypotheses and candidate runtime diagnostics out of the overview until they are supported by a stable public milestone.
@@ -81,7 +88,7 @@ execution queue.
 
 These items are not active Workstreams until the user selects a bounded effort.
 
-- Home and Projects currently feature ROBO 404++ and the Uber-style distributed data pipeline.
+- Home and Projects feature ROBO 404++, the Uber-style distributed data pipeline, and Personal AI Work & Knowledge System.
 - Public pages are currently written in English.
 - Confirm exact end date for YBIGTA data engineering team leader role (provisional: 2026.06).
 - Add concrete metrics to project pages (throughput, latency, reliability) for stronger evidence.

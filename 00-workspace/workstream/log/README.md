@@ -14,3 +14,4 @@ legacy path is no longer a current-state or log authority.
 - [2026-08-24](daily/2026-08-24.md)
 - [2026-08-30](daily/2026-08-30.md)
 - [2026-08-31](daily/2026-08-31.md)
+- [2026-09-13](daily/2026-09-13.md) — Dashboard external binding update

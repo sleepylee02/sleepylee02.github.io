@@ -222,7 +222,6 @@ button,
 }
 
 .content-entry__meta {
-  max-width: 76ch;
   margin: 7px 0 0;
   color: color-mix(in srgb, var(--foreground) 58%, transparent);
   font-size: 0.74rem;
