@@ -28,8 +28,6 @@ Reasoning about execution-time uncertainty and deadline-failure risk.
 Exploring how inference and execution timing affect reliable robot behavior.
 {{< /content-entry >}}
 
-Across these areas, I am also interested in both directions of the relationship between machine learning and real-time systems: using ML to address real-time system problems, and designing predictable support for machine-learning workloads.
-
 ---
 
 ### Systems Background
